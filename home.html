@@ -15,6 +15,8 @@
         crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> -->
     <!-- Bootstrap -->
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <mobile>
     <div class="mobile-status-bar">
@@ -25,8 +27,8 @@
         <div class="calendar-box">
             <div class="pt-3">
                 <div class="calendar calendar-first " id="calendar_first">
-                    <div class="calendar_header bg-danger text-white mt-2">
-                        <button class="switch-month switch-left"> <i class="fa fa-chevron-left"></i></button>
+                    <div class="calendar_header bg-danger text-white mt-2 ">
+                        <button class="switch-month switch-left mt-2"> <i class="fa fa-chevron-left"></i></button>
                         <h2></h2>
                         <button class="switch-month switch-right"> <i class="fa fa-chevron-right"></i></button>
                     </div>
@@ -61,9 +63,57 @@
                     <input class="form-check-input" type="radio" value="" id="defaultCheck1">
                 </div>
             </div>
-            <a href="#" class="btn btn-info btn-lg mt-3 ml-5">
-                <span class="glyphicon glyphicon-plus"></span> Plus 
+            <a href="#" class="btn btn-success btn-lg size" type="button"data-toggle="modal" data-target="#exampleModalLong">
+                <i class="fa fa-plus"></i>
             </a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header title-color">
+                    <h5 class="modal-title " id="exampleModalLongTitle">เพิ่มการเเจ้งเตือน</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body" style="background-color: #ffefef;">
+                        <form>
+                            <div class="form-group">
+                                <label for="meeting-time">เลือกวันที่เเละเวลาที่ต้องการทำการเเจ้งเตือน</label>
+                                <input type="datetime-local" id="meeting-time"
+                                    name="meeting-time" value="2018-06-12T19:30"
+                                    min="2018-06-07T00:00" max="2018-06-14T00:00" class="date-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">ชื่อยาที่ต้องรับประทาน</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="พาราเซตามอล">
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <label for="exampleFormControlInput1" class="mt-2">จำนวนยาทั้งหมด</label>
+                            <label for="exampleFormControlInput1" class="mt-2" style="margin-left: 115px;">จำนวนรับประทานในหนึ่งครั้ง</label>
+                            <div class="form-group">
+                                    <input type="email" class="form-control count-mec" id="exampleFormControlInput1" placeholder="1"><span class="ml-1 mr-2">
+                                        เม็ด
+                                    </span>
+                                    <input type="email" class="form-control count-mec" id="exampleFormControlInput1" placeholder="1">
+                                    <span class="ml-1">เม็ด</span>
+                            </div> 
+                        </form>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">ข้อควรปฎิบัติอื่นๆ</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer " style="background-color: #FFD1D2;">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">ปิดหน้าต่าง</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">บันทึกข้อมูล</button>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -161,6 +211,7 @@ body { margin-top: 3%; }
 .calendar_header {
     width: 100%;
     text-align: center;
+    /* display: inline; */
 }
 .calendar_header h2 {
     padding: 0 10px;
@@ -177,7 +228,6 @@ button.switch-month {
     outline: none;
     border: none;
     color: #dcdcdc;
-    float: left;
     width:15%;
     transition: color .2s;
 }
@@ -206,12 +256,27 @@ button.switch-month:hover {
     width: 25px;
     height: 25px;
     margin-left: 15px;
-    margin-top: 15px;}
+    margin-top: 15px;
 }
-/* input[type="checkbox"]#defaultCheck1:checked + span {
-      border-color: red;
-    background-color:red;
-} */
+.size {
+    margin-left: 320px;
+    padding-top: 5px;
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px #87b633;
+}
+.fa {
+    margin-top: 10px;
+}
+.date-input {
+    width: 100%;
+    height: 100%;
+}
+.title-color {
+    background-color: #dc3545;
+}
+
 </style>
 <script>
 $(document).ready(function () {
