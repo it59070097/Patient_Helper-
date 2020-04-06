@@ -1,0 +1,41 @@
+
+    body {
+        background: linear-gradient(90deg,#141923 1%, #395D7E 30%,#274D6F 69%);
+        font-family: Montserrat;
+    }
+    .center {
+        display: block;
+        margin-top: 154px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    .fontlogo {
+        font-size: 25px;
+        font-weight: bold;
+        color: #BAEDFF;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .boxmeanu {
+        display: block;
+        background-color: #141923;
+        width: 414px;
+        height: 95px;
+        margin-top: 100px;
+        filter: brightness(4);
+        border-radius: 20px 20px 0px 0px;
+        opacity: 0.3;
+    }
+    .boxbtn {
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        color: #E7E7EA;
+        font-family: Montserrat;
+        opacity: 1;
+        margin-top: 25px;
+        margin-left: 52px;
+    }
+    .boxbtn:hover {
+        color: black;
+    }

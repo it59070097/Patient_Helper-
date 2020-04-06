@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REMIND MEDICINE</title>
+    <title>Document</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
@@ -18,23 +18,25 @@
         crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <!-- CSS -->
-    <link href="/css/login.css" rel="stylesheet" />
+    <link href="/css/register.css" rel="stylesheet" />
     <!-- CSS -->
-
 </head>
 <body>
     <mobile>
-    <div class='mobile-container'>
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <div class='mobile-container'>
+            <p>register</p>
+            <label for="exampleInputEmail1">Username</label>
+              <input type="text" class="form-control" id="username" aria-describedby="emailHelp" >
             
               <label for="exampleInputPassword1">Password</label>
               <input type="password" class="form-control" id="password" placeholder="Password">
-            
-            <button class="btn btn-primary" onclick="login()">login</button>
-          
-    </div>
-</mobile>
+              <label for="exampleInputPassword1">confirm Password</label>
+              <input type="password" class="form-control" id="confirmpassword" placeholder="Password">
+              <label for="exampleInputPassword1">email</label>
+              <input type="email" class="form-control" id="email">
+            <button class="btn btn-primary" onclick="register()">register</button>
+        </div>
+    </mobile>
     <!-- firebase -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
@@ -63,4 +65,4 @@
     <!-- firebase -->
 </body>
 </html>
-<script src="/script/login.js"></script>
+<script src="/script/register.js"></script>
