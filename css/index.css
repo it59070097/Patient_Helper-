@@ -3,9 +3,13 @@
         background: linear-gradient(90deg,#141923 1%, #395D7E 30%,#274D6F 69%);
         font-family: Montserrat;
     }
+    img {
+        width: 310px;
+        height: 310px;
+    }
     .center {
         display: block;
-        margin-top: 154px;
+        margin-top: 105px;
         margin-left: auto;
         margin-right: auto;
       }
@@ -25,6 +29,8 @@
         filter: brightness(4);
         border-radius: 20px 20px 0px 0px;
         opacity: 0.3;
+        margin-left: auto;
+        margin-right: auto;
     }
     .boxbtn {
         font-size: 25px;
