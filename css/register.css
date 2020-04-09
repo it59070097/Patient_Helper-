@@ -1,29 +1,79 @@
+body {
+    background: linear-gradient(90deg,#141923 1%, #395D7E 30%,#274D6F 69%);
+    font-family: Montserrat;
+}
+.fontlogo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #E7E7EA;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.resigbtn {
+    width: 131px;
+    height: 45px;
+    color: #274D6F;
+    background-color: #D5FAFF;
+    margin-top: 20px;
+    margin-left: 186%;
+    border-radius: 10px 0px 0px 10px;
+}
+.boxlogin {
+    display: block;
+    background-color: rgba(20, 25, 35, 0.1);
+    width: 374px;
+    height: 482px;
+    margin-top: 43px;
+    /* filter: brightness(4); */
+    border-radius: 20px 20px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.fontsize {
+    color: #E7E7EA;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.boxinput {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+    width: 200px;
 
-    body {
-        padding: 1em;
-        background: #666;
-        font-family: sans-serif;
-    }
-
-    mobile {
-        display: flex;
-        flex-flow: column nowrap;
-        background: #ffffff;
-        margin: auto;
-        width: 414px;
-        height: 736px;
-        box-shadow: 0px 12px 24px #0004;
-    }
-
-    .mobile-status-bar img {
-        width: 100%;
-    }
-
-    .mobile-container {
-        height: 100%;
-        overflow: auto;
-    }
-
-    .text {
-        font-size: 2rem;
-    }
+}
+.logo {
+    width: 20px;
+    height: 23px;
+    margin-right: 3px;
+}
+.logininput {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.loginbtn {
+    width: 145px;
+    height: 145px;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}

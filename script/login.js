@@ -25,3 +25,6 @@ function login(){
     console.log(error);
   });
 }
+function regispage(){
+  window.location.replace("register.html");
+}

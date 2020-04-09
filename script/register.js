@@ -43,3 +43,6 @@ function register() {
       window.alert("password not math")
   }
 }
+function loginpage(){
+  window.location.replace("login.html");
+}

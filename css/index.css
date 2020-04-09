@@ -22,13 +22,12 @@
     }
     .boxmeanu {
         display: block;
-        background-color: #141923;
+        background-color: rgba(20, 25, 35, 0.1);
         width: 414px;
         height: 111px;
         margin-top: 104px;
-        filter: brightness(4);
+        /* filter: brightness(4); */
         border-radius: 20px 20px 0px 0px;
-        opacity: 0.3;
         margin-left: auto;
         margin-right: auto;
     }
@@ -38,7 +37,6 @@
         text-align: center;
         color: #E7E7EA;
         font-family: Montserrat;
-        opacity: 1;
         margin-top: 29px;
         margin-left: 52px;
     }

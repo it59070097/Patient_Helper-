@@ -23,18 +23,43 @@
 
 </head>
 <body>
-    <mobile>
-    <div class='mobile-container'>
-              <label for="exampleInputEmail1">Email address</label>
+    <div class='container'>
+        <div class="row">
+            <div class=".col- .col-lg center">
+                <span class="fontlogo">REMIND MEDICINE</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class=".col .col-lg">
+                <button class="resigbtn btn" onclick=" regispage()">Register</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class=".col- .col-lg">
+                <div class="boxlogin">
+                    <div class="fontsize">Login</div>
+                    <div class="logininput">
+                        <img src="/img/user.svg" alt="" class="logo">
+                        <input type="text" class="boxinput" placeholder="Email" id="email">
+                    </div>
+                    <div class="logininput">
+                        <img src="/img/pass.svg" alt="" class="logo">
+                        <input type="password" class="boxinput" placeholder="Password" id="password">
+                    </div>
+                    <input type="image" id="image" src="/img/btn.png" class="loginbtn" onclick="login()">
+
+                </div>
+            </div>
+        </div>
+              <!-- <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
             
               <label for="exampleInputPassword1">Password</label>
               <input type="password" class="form-control" id="password" placeholder="Password">
             
-            <button class="btn btn-primary" onclick="login()">login</button>
+            <button class="btn btn-primary" onclick="login()">login</button> -->
           
     </div>
-</mobile>
     <!-- firebase -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>

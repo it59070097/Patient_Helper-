@@ -22,7 +22,45 @@
     <!-- CSS -->
 </head>
 <body>
-    <mobile>
+    <body>
+        <div class='container'>
+            <div class="row">
+                <div class=".col- .col-lg center">
+                    <span class="fontlogo">REMIND MEDICINE</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class=".col .col-lg">
+                    <button class="resigbtn btn" onclick="loginpage()">Login</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class=".col- .col-lg">
+                    <div class="boxlogin">
+                        <div class="fontsize">Register</div>
+                        <div class="logininput">
+                            <img src="/img/user.svg" alt="" class="logo">
+                            <input type="text" class="boxinput" placeholder="Username" id="username">
+                        </div>
+                        <div class="logininput">
+                            <img src="/img/pass.svg" alt="" class="logo">
+                            <input type="password" class="boxinput" placeholder="Password" id="password">
+                        </div>
+                        <div class="logininput">
+                            <img src="/img/pass.svg" alt="" class="logo">
+                            <input type="password" class="boxinput" placeholder="Confirm Password" id="confirmpassword">
+                        </div>
+                        <div class="logininput">
+                            <img src="/img/email.svg" alt="" class="logo">
+                            <input type="text" class="boxinput" placeholder="Email" id="email">
+                        </div>
+                        <input type="image" id="image" src="/img/btn.png" class="loginbtn" onclick="register()">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- <mobile>
         <div class='mobile-container'>
             <p>register</p>
             <label for="exampleInputEmail1">Username</label>
@@ -36,7 +74,7 @@
               <input type="email" class="form-control" id="email">
             <button class="btn btn-primary" onclick="register()">register</button>
         </div>
-    </mobile>
+    </mobile> -->
     <!-- firebase -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
