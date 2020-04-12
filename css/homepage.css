@@ -1,0 +1,173 @@
+body {
+  background-color: #274d6f;
+  font-family: Montserrat;
+}
+.center {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fontlogo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #e7e7ea;
+  margin-left: auto;
+  margin-right: auto;
+}
+.homebox {
+  display: block;
+  background-color: rgba(99, 128, 156, 20%);
+  backdrop-filter:brightness(1);
+  width: 374px;
+  height: 655px;
+  margin-top: 15px;
+  border-radius: 20px 20px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.checkbox{
+  margin: 3%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* padding-bottom: 5%; */
+  border-left: 10px solid #ccc!important;
+  border-color: #DA247B!important;
+}
+.font-size {
+  font-size: 16px;
+  font-weight: 500;
+}
+.radio-css {
+  width: 20px;
+  height: 20px;
+  margin-left: 70px;
+  margin-top: 13px;
+}
+/* input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+:hover .check {
+  border: 5px solid #FFFFFF;
+}
+.check::before {
+  display: block;
+  position: absolute;
+    content: '';
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+    left: 5px;
+  margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+} */
+/* .vc-title-layout {
+  background-color: #141923;
+  color: #FFEFEF;
+}
+.vc-text-gray-800 {
+  color: #FFEFEF;
+  
+}
+.vc-svg-icon {
+  color: #FFEFEF;
+}
+.vc-weekday {
+  color: #274D6F;
+  background-color: #D2D3D6;
+}
+.vc-day-box-center-center {
+  color: #274D6F;
+  background-color: #E2F8FA;
+  border-color: #9FF9D0;
+} */
+.addnoti{
+  bottom: 5%;
+  right: 10%;
+  position: fixed;
+  background-color: #141923;
+  /* border: 1px solid #9FF9D0; */
+  color: #9FF9D0;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+.title-color {
+  background-color: rgb(39, 75, 108);
+  color: #FFFFFF;
+}
+.bodystyle {
+  background-color: #edeff1;
+  /* background-color: rgba(99, 128, 156); */
+  /* background: linear-gradient(90deg, #141923 1%, #395d7e 30%, #274d6f 69%); */
+}
+label {
+  color: #000;
+  font-weight: 500;
+}
+.prioritybtn {
+  margin-left: 50px;
+  margin-right: 5px;
+}
+.card-body {
+  background-color: #14192373;
+  width: 100%;
+  border: 0px;
+  border-radius: 9px;
+  background-color: var(--dark);
+}
+.btn-outline-secondary {
+  color:#fff;
+}
+input{
+  border: 0.5px;
+}
+/* .btn{
+  background-color: #14192373;
+} */
+.gj-datepicker-bootstrap [role=right-icon] button {
+  background-color: var(--dark);
+}
+.close-btn {
+  background-color: rgb(39, 75, 108);
+  color: #fff;
+  border: 2px solid #9FF9D0;
+}
+.submit-btn {
+  background-color: #141923;
+  color: #fff;
+  border: 2px solid #9FF9D0;
+}
+
+/* BLUE Radio button code */
+#radio-1 + label {
+    left: -60vw;
+    background: #4285F4;
+    animation-delay: 0s;
+}
+#radio-1 + label:before {
+    transform: scale(0);
+}
+#radio-1:checked + label:before {
+    transform: scale(1);
+    transition: all .4s;
+}

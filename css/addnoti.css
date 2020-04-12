@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(90deg, #141923 1%, #395d7e 30%, #274d6f 69%);
+    font-family: Montserrat;
+  }
+  .center {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fontlogo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #e7e7ea;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .homebox {
+    display: block;
+    background-color: rgba(99, 128, 156, 20%);
+    backdrop-filter:brightness(1);
+    width: 374px;
+    height: 595px;
+    margin-top: 15px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
