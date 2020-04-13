@@ -30,25 +30,30 @@
             </div>
         </div>
         <div class="row">
-            <div class=".col .col-lg">
+            <div class="col-lg"></div>
+            <div class=".col .col-lg-6">
                 <button class="resigbtn btn" onclick=" regispage()">Register</button>
             </div>
         </div>
         <div class="row">
-            <div class=".col- .col-lg">
-                <div class="boxlogin">
-                    <div class="fontsize">Login</div>
-                    <div class="logininput">
-                        <img src="/img/user.svg" alt="" class="logo">
-                        <input type="text" class="boxinput" placeholder="Email" id="email">
-                    </div>
-                    <div class="logininput">
-                        <img src="/img/pass.svg" alt="" class="logo">
-                        <input type="password" class="boxinput" placeholder="Password" id="password">
-                    </div>
-                    <input type="image" id="image" src="/img/btn.png" class="loginbtn" onclick="login()">
-
-                </div>
+            <div class="boxlogin .col- .col-lg">
+                    <!-- <div class=""> -->
+                        <div class="fontsize">Login</div>
+                        <form style="margin-left: auto; margin-bottom: auto; width: 100%;">
+                            <div class="from-group">
+                                <img src="/img/user.svg" alt="" class="logo ml-4">
+                                <input type="text" class="boxinput " placeholder="Email" id="email">
+                            </div>
+                            <div class="from-group mt-5">
+                                <img src="/img/pass.svg" alt="" class="logo ml-4">
+                                <input type="password" class="boxinput" placeholder="Password" id="password">
+                            </div>
+                            <button type="button" class="btn loginbtn" style="margin-top: 70px; margin-left: 115px; width: 100px;" onclick="login()">Login</button>
+                        </form>
+                        
+    
+                    <!-- </div> -->
+               
             </div>
         </div>
               <!-- <label for="exampleInputEmail1">Email address</label>

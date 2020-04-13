@@ -22,20 +22,19 @@
     color: #274D6F;
     background-color: #D5FAFF;
     margin-top: 20px;
-    margin-left: 186%;
     border-radius: 10px 0px 0px 10px;
 }
 .boxlogin {
     display: block;
     background-color: rgba(20, 25, 35, 0.1);
-    width: 374px;
     height: 482px;
     margin-top: 43px;
+    width: 374px;
     /* filter: brightness(4); */
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding: 20px;
 }
 .fontsize {
     color: #E7E7EA;
@@ -56,7 +55,7 @@
     border-right: none;
     border-bottom: solid #eeeeee 1px;
     padding: 3px 10px;
-    width: 200px;
+    width: 250px;
 
 }
 .logo {
@@ -72,9 +71,7 @@
     padding-right: 22px;
 }
 .loginbtn {
-    width: 145px;
-    height: 145px;
-    margin-top: 70px;
-    margin-left: 30%;
-    margin-right: 30%;
+    background-color: #141923;
+    color: #fff;
+    border: 2px solid #9FF9D0;
 }
